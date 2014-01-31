@@ -1,4 +1,5 @@
 myReverse :: [a] -> [a]
 myReverse [] = []
-myReverse li = last li : myReverse (init li)
+myReverse [a] = [a]
+myReverse (x:xs) = myReverse xs ++ [x]
 
