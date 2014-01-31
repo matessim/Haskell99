@@ -1,9 +1,9 @@
 #! /bin/bash
-
+cd src
 tmux new-session -d -s Haskell
 tmux rename-window 'Main'
 tmux select-window -t Haskell:0
-tmux send-keys 'vim src' 'C-m'
+tmux send-keys 'vim .' 'C-m'
 tmux split-window -v
 tmux resize-pane -D 8
 
