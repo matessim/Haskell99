@@ -1,0 +1,2 @@
+Haskell Prerequisites (Really short, written by some guy at freenode's #haskell)
+http://www.vex.net/~trebla/haskell/prerequisite.xhtml
